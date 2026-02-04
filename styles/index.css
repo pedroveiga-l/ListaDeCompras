@@ -5,8 +5,9 @@
     height: 100vh;
 }
 
-#container > :not(#logo) {
-  width: 643px;
+#container> :not(#logo, #addItem) {
+    width: 100%;
+    max-width: 643px;
 }
 
 #logo {
@@ -26,17 +27,14 @@
     height: 16px;
 }
 
-#addItem {
-    max-width: 627px;
-}
-
 #writeItem {
     background-color: #ffffff;
     border: 2px solid var(--border-primary);
     border-radius: 12px;
     width: 451px;
     height: 44px;
-    padding: 11px 261px 11px 18px;
+    padding: 11px 18px;
+    box-sizing: border-box;
     margin-right: 12px;
     margin-bottom: 42px;
     max-width: 451px;
@@ -106,13 +104,13 @@
 }
 
 .delete-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .delete-btn img {
-  background: transparent;
+    background: transparent;
 }
 
 .check {
@@ -125,31 +123,31 @@
 }
 
 #alert {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-  background-color: var(--color-danger);
-  color: #fff;
+    background-color: var(--color-danger);
+    color: #fff;
 
-  border-radius: 12px;
-  padding: 12px;
+    border-radius: 12px;
+    padding: 12px;
 
-  margin-top: 24px;
+    margin-top: 24px;
 }
 
 #alert span {
-  flex: 1;
-  margin-left: 8px;
-  font: var(--label);
-  background-color: var(--color-danger);
+    flex: 1;
+    margin-left: 8px;
+    font: var(--label);
+    background-color: var(--color-danger);
 }
 
 /* ícones */
 #alert img {
-  width: 20px;
-  height: 20px;
-  background-color: var(--color-danger);
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-danger);
 }
 
 #close {
@@ -159,5 +157,50 @@
 
 /* botão X (imagem da direita) */
 #alert img:last-child {
-  cursor: pointer;
+    cursor: pointer;
+}
+
+@media (max-width: 680px) {
+    #logo {
+        display: none;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #container> :not(#addItem) {
+        width: 100%;
+        max-width: 327px;
+    }
+
+    #link {
+        margin-top: 26px;
+    }
+
+    #addItem {
+        max-width: 326px;
+    }
+
+    #writeItem {
+        max-width: 326px;
+        margin-bottom: 16px;
+    }
+
+    #addItem-btn {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    #alert {
+        width: 100%;
+    }
 }
