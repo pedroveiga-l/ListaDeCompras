@@ -1,0 +1,163 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#container > :not(#logo) {
+  width: 643px;
+}
+
+#logo {
+    margin-top: 25px;
+    margin-bottom: 62px;
+}
+
+#link a {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 4px;
+}
+
+#link img {
+    width: 16px;
+    height: 16px;
+}
+
+#addItem {
+    max-width: 627px;
+}
+
+#writeItem {
+    background-color: #ffffff;
+    border: 2px solid var(--border-primary);
+    border-radius: 12px;
+    width: 451px;
+    height: 44px;
+    padding: 11px 261px 11px 18px;
+    margin-right: 12px;
+    margin-bottom: 42px;
+    max-width: 451px;
+}
+
+#writeItem::placeholder {
+    color: var(--content-tertiary);
+    font: var(--link);
+}
+
+#writeItem:hover {
+    border: 2px solid var(--border-hover);
+}
+
+#writeItem:focus {
+    border: 2px solid var(--color-brand);
+    outline: none;
+}
+
+#writeItem:focus::placeholder {
+    color: var(--content-primary);
+}
+
+#addItem-btn {
+    outline: none;
+    border: 0;
+    color: #ffffff;
+    border-radius: 12px;
+    background-color: var(--color-brand);
+    font: var(--label);
+    padding: 12px 24px;
+    max-width: 160px;
+}
+
+#addItem-btn:hover {
+    background-color: var(--color-brand-hover);
+    cursor: pointer;
+}
+
+#all-List ul {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.left span {
+    font: var(--paragraph);
+    color: var(--content-secondary);
+    margin-left: 12px;
+    background-color: #ffffff;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn img {
+  background: transparent;
+}
+
+.check {
+    outline: none;
+    transform: scale(1.2);
+}
+
+.check:hover {
+    cursor: pointer;
+}
+
+#alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--color-danger);
+  color: #fff;
+
+  border-radius: 12px;
+  padding: 12px;
+
+  margin-top: 24px;
+}
+
+#alert span {
+  flex: 1;
+  margin-left: 8px;
+  font: var(--label);
+  background-color: var(--color-danger);
+}
+
+/* ícones */
+#alert img {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-danger);
+}
+
+#close {
+    border: none;
+    background: none;
+}
+
+/* botão X (imagem da direita) */
+#alert img:last-child {
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="styles/global.css">
+
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="logo">
+            <img src="assets/images/logo.svg" alt="">
+        </div>
+
+        <div id="link">
+            <a href=""> <img src="assets/icons/arrow-left.svg" alt="">Voltar </a>
+        </div>
+
+        <div id="title">
+            <h1>Compras da semana</h1>
+        </div>
+
+        <div id="addItem">
+            <input type="text" name="" id="writeItem" placeholder="Adicione um novo item">
+            <button type="submit" id="addItem-btn">Adicionar item</button>
+        </div>
+
+        <div id="all-List">
+            <ul>
+                <li class="item">
+                    <div class="left">
+                        <input type="checkbox" class="check">
+                        <span>Item</span>
+                    </div>
+
+                    <button class="delete-btn">
+                        <img src="assets/icons/button.svg" alt="">
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="left">
+                        <input type="checkbox" class="check">
+                        <span>Item</span>
+                    </div>
+
+                    <button class="delete-btn">
+                        <img src="assets/icons/button.svg" alt="">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div id="alert">
+            <img src="assets/icons/Icon.svg" alt="">
+            <span>O item foi removido da lista</span>
+            <button id="close">
+                <img src="assets/icons/delete-small.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
