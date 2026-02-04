@@ -74,33 +74,20 @@
     cursor: pointer;
 }
 
-#all-List ul {
-    padding: 0;
-    margin: 0;
-}
-
 .item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 
     background-color: #ffffff;
     border-radius: 12px;
     padding: 8px 12px;
     margin-bottom: 12px;
+    height: 49px;
 }
 
-.left {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-}
-
-.left span {
-    font: var(--paragraph);
-    color: var(--content-secondary);
-    margin-left: 12px;
-    background-color: #ffffff;
+.nameItem {
+    background-color: #fff;
+    margin-right: auto;
 }
 
 .delete-btn {
@@ -114,6 +101,8 @@
 }
 
 .check {
+    margin-right: 12px;
+    margin-left: 8px;
     outline: none;
     transform: scale(1.2);
 }
@@ -134,6 +123,8 @@
     padding: 12px;
 
     margin-top: 24px;
+
+    display: none;
 }
 
 #alert span {

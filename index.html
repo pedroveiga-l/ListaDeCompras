@@ -29,33 +29,13 @@
             <h1>Compras da semana</h1>
         </div>
 
-        <div id="addItem">
+        <form id="addItem">
             <input type="text" name="" id="writeItem" placeholder="Adicione um novo item">
-            <button type="submit" id="addItem-btn">Adicionar item</button>
-        </div>
+            <button type="button" id="addItem-btn" onclick="addItem()">Adicionar item</button>
+        </form>
 
-        <div id="all-List">
+        <div>
             <ul>
-                <li class="item">
-                    <div class="left">
-                        <input type="checkbox" class="check">
-                        <span>Item</span>
-                    </div>
-
-                    <button class="delete-btn">
-                        <img src="assets/icons/button.svg" alt="">
-                    </button>
-                </li>
-                <li class="item">
-                    <div class="left">
-                        <input type="checkbox" class="check">
-                        <span>Item</span>
-                    </div>
-
-                    <button class="delete-btn">
-                        <img src="assets/icons/button.svg" alt="">
-                    </button>
-                </li>
             </ul>
         </div>
 
