@@ -1,11 +1,11 @@
-🛒 Lista de Compras — Compras da Semana
+🛒 #Lista de Compras — Compras da Semana
 
 Aplicação web simples e responsiva para gerenciar uma lista de compras da semana.
 O usuário pode adicionar itens, marcar como concluídos e remover da lista, recebendo um alerta visual quando um item é deletado.
 
 ---
 
-✨ Funcionalidades
+✨ ##Funcionalidades
 
 ✅ Adicionar novos itens à lista
 ☑️ Marcar itens como concluídos (checkbox)
@@ -17,7 +17,7 @@ O usuário pode adicionar itens, marcar como concluídos e remover da lista, rec
 
 ---
 
-🖼️ Interface
+🖼️ ##Interface
 
 O design simula um aplicativo moderno de lista de tarefas/compras, com:
 
@@ -33,7 +33,7 @@ O design simula um aplicativo moderno de lista de tarefas/compras, com:
 
 ---
 
-🛠️ Tecnologias utilizadas
+🛠️ ##Tecnologias utilizadas
 
 - HTML5 → Estrutura da aplicação
 
@@ -56,7 +56,7 @@ O design simula um aplicativo moderno de lista de tarefas/compras, com:
 
 ---
 
-🚀 Como usar
+🚀 ##Como usar
 
 Clone o repositório:
 
