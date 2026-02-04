@@ -3,6 +3,8 @@
 Aplicação web simples e responsiva para gerenciar uma lista de compras da semana.
 O usuário pode adicionar itens, marcar como concluídos e remover da lista, recebendo um alerta visual quando um item é deletado.
 
+---
+
 ✨ Funcionalidades
 
 ✅ Adicionar novos itens à lista
@@ -12,6 +14,8 @@ O usuário pode adicionar itens, marcar como concluídos e remover da lista, rec
 ❌ Fechar o alerta manualmente
 ⏳ Alerta desaparece automaticamente com animação suave
 📱 Layout responsivo (funciona em celular, tablet e desktop)
+
+---
 
 🖼️ Interface
 
@@ -27,6 +31,8 @@ O design simula um aplicativo moderno de lista de tarefas/compras, com:
 
 - Alerta visual animado ao excluir itens
 
+---
+
 🛠️ Tecnologias utilizadas
 
 - HTML5 → Estrutura da aplicação
@@ -34,6 +40,8 @@ O design simula um aplicativo moderno de lista de tarefas/compras, com:
 - CSS3 → Estilização e responsividade
 
 - JavaScript (Vanilla JS) → Manipulação do DOM e interações
+
+---
 
 ```
 📂 Estrutura de pastas
@@ -45,6 +53,8 @@ O design simula um aplicativo moderno de lista de tarefas/compras, com:
     ┣ 📁 icons
     ┗ 📁 images
 ```
+
+---
 
 🚀 Como usar
 
